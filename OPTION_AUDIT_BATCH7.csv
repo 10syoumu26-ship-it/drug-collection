@@ -1,0 +1,17 @@
+﻿level,question,topic,choice,text,correct,basis,source,verification
+1,4,副作用,1,低カリウム血症,True,ループ利尿薬によるK排泄増加で起こり得る,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+1,4,副作用,2,高カリウム血症,False,本剤の典型的な電解質影響としては逆方向,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+1,4,副作用,3,高カルシウム血症,False,Ca再吸収低下方向のため高Ca血症は代表的でない,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+1,4,副作用,4,高マグネシウム血症,False,Mg排泄増加傾向のため高Mg血症は代表的でない,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+2,4,副作用,1,低ナトリウム血症,True,ナトリウム喪失のため起こり得る,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+2,4,副作用,2,循環血液量減少に伴う脱水や血圧低下,True,利尿による循環血液量減少が原因となり得る,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+2,4,副作用,3,聴覚障害（難聴など）,True,聴覚障害は副作用として注意対象,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+2,4,副作用,4,尿中Na⁺排泄低下による体液貯留,False,本剤はNa排泄を増加させるので主作用と逆,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+3,1,分類,1,ループ利尿薬：ヘンレ係蹄上行脚でNaCl再吸収を抑制,True,正しい薬効群と標的部位,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+3,1,分類,2,MRA：アルドステロン受容体を阻害しK⁺排泄を促進,False,MRAはカリウム保持方向で記載が誤り,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+3,1,分類,3,サイアザイド系：集合管のENaCを直接遮断,False,サイアザイド系はNCC阻害でありENaCではない,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+3,1,分類,4,SGLT2阻害薬：太い上行脚のNKCC2を阻害,False,SGLT2阻害薬の標的は近位尿細管SGLT2,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+3,2,作用機序,1,ヘンレ係蹄太い上行脚のNKCC2,True,太い上行脚NKCC2の阻害がCa排泄にも関係,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+3,2,作用機序,2,遠位尿細管のNCC,False,NCCは遠位尿細管の輸送体,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+3,2,作用機序,3,集合管のミネラルコルチコイド受容体,False,MRAは集合管などで作用し直接の標的でない,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし
+3,2,作用機序,4,近位尿細管のSGLT2,False,SGLT2は近位尿細管の標的,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_2139005F1052_1_07,薬理学的整合性＋公式添文の関連事項で一次点検。第三者査読なし

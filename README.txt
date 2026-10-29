@@ -1,3 +1,1 @@
-DRUG COLLECTION v1.14 — wrong-option provenance explanation. Upload index.html and sw.js; keep the existing drugs.js and curated_questions.js.
-
-V1.15: All secondary page back buttons moved below the iPhone safe area, with larger tap targets.
+DRUG COLLECTION v1.17 / 手作業で改稿した第1弾：エナラプリル18問。GitHubに index.html sw.js verified_batch1.js をアップロード。既存データは維持。

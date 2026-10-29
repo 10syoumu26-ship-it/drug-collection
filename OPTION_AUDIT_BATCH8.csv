@@ -1,0 +1,17 @@
+﻿薬剤,段階,項目,選択肢,判定,判定理由,参照資料,検証の限界
+ロサルタン,BASIC,副作用,血清カリウム 4.2→5.8mEq/L,正解,高K血症はARBで注意すべき変化。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,BASIC,副作用,血清カリウム 4.2→3.3mEq/L,誤答,低K血症はロサルタンの代表的な薬理作用とは逆方向。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,BASIC,副作用,HbA1c 7.0→6.4%,誤答,血糖管理の改善を示す変化であり、ARBの代表的有害反応ではない。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,BASIC,副作用,血清ナトリウム 140→142mEq/L,誤答,正常範囲内の小幅なNa変動であり、特異的な有害反応を示さない。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,ADVANCED,特記事項,スピロノラクトン,正解,スピロノラクトンもK排泄を減少させるため、併用で高K血症リスクが増す。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,ADVANCED,特記事項,アムロジピン,誤答,アムロジピンは血管平滑筋のCaチャネル遮断薬で、同機序でのK上昇は代表的でない。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,ADVANCED,特記事項,アセトアミノフェン,誤答,アセトアミノフェンは解熱鎮痛薬であり、K保持性利尿薬ではない。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,ADVANCED,特記事項,ランソプラゾール,誤答,ランソプラゾールはPPIであり、K保持性利尿薬ではない。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,MASTER,作用機序,AT₁受容体遮断によるアルドステロン作用低下と腎血行動態の変化,正解,ロサルタンのAT₁受容体遮断に関連する機序である。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,MASTER,作用機序,ACEの直接阻害によるブラジキニン分解抑制,誤答,ACE直接阻害はACE阻害薬の特徴であり、ロサルタンの主機序ではない。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,MASTER,作用機序,ループ利尿作用による尿中K排泄増加,誤答,ループ利尿薬の一般的なK排泄促進と逆方向である。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+ロサルタン,MASTER,作用機序,L型Ca²⁺チャネル遮断による直接的なインスリン分泌促進,誤答,Ca拮抗薬の標的と混同しており、ロサルタンの主機序ではない。,https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2149039F1228_1?user=1,資料に直接明記されない誤答の否定は薬理学的対比を含む
+エナラプリル,MASTER,主な適応,慢性心不全（軽症〜中等症）が効能・効果に含まれる,正解,電子添文の適応および用法に合致する。,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2144002F1300_1_07,資料に直接明記されない誤答の否定は薬理学的対比を含む
+エナラプリル,MASTER,主な適応,発作性上室性頻拍の停止のみを目的に承認されている,誤答,頻拍の停止を目的とする抗不整脈薬ではない。,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2144002F1300_1_07,資料に直接明記されない誤答の否定は薬理学的対比を含む
+エナラプリル,MASTER,主な適応,細菌性心内膜炎の抗菌薬として承認されている,誤答,抗菌作用を有する治療薬ではない。,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2144002F1300_1_07,資料に直接明記されない誤答の否定は薬理学的対比を含む
+エナラプリル,MASTER,主な適応,急性肺塞栓症の血栓溶解薬として承認されている,誤答,血栓溶解薬ではない。,https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2144002F1300_1_07,資料に直接明記されない誤答の否定は薬理学的対比を含む
