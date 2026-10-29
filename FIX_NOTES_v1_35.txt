@@ -1,0 +1,1 @@
+v1.35 fixes blank homepage caused by undefined QUESTIONS_PER_ROUND and quiz completion crash caused by missing sourceIds. Keeps existing save key. Includes verified_batch10.js required for apixaban questions. Upload index.html, sw.js, verified_batch10.js.
