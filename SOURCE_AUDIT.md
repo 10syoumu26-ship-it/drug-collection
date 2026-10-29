@@ -1,9 +1,4 @@
-# 出典管理・レビュー記録（内部用、ゲーム画面に照合マークは表示しない）
-
-2026-10-29 現在、全30薬剤の全項目・全問題の電子添文との照合は完了していません。以下の3薬剤について代表製剤のPMDA電子添文（HTML）から特定項目を再確認し、適応・注意・用法の内容を補正しました。**3薬剤とも全6項目・全生成問題の照合完了ではありません。** その他27薬剤は個別製剤の確認未完了。
-
-- アムロジピン：アムロジン錠／OD錠、2026年4月改訂。 https://www.pmda.go.jp/PmdaSearch/iyakuDetail/400093_2171022F1045_3_22 （禁忌、効能・効果、投与の基本を確認）
-- エンパグリフロジン：ジャディアンス錠10mg／25mg、2025年9月改訂。 https://www.pmda.go.jp/PmdaSearch/iyakuDetail/650168_3969023F1023_1_19 （禁忌、効能・効果、用法、注意を確認。10mg/25mgの適応の違いを反映）
-- セマグルチド：オゼンピック皮下注2mg、2026年5月改訂。 https://www.pmda.go.jp/PmdaSearch/iyakuDetail/620023_2499418G4027_1_07 （禁忌、効能・効果、週1回用法を確認）
-
-今後の全件照合には各薬剤の参照製剤の特定、6項目、問題の各正誤選択肢、解説を点検する必要があります。現状の自動生成問題は同薬効群の概念が重なり正誤判定に曖昧さが残る場合があります。全件監修済み教材として扱わないでください。
+v1.12: 3 drugs with hand-authored 18 questions each. Verified representative drug-label endpoints and selected label facts from PMDA public resources; not a comprehensive verification of all 30 drugs or every answer choice. Sources:
+https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2171022F1045_3
+https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/3969023F1023_1
+https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2499418G4027_1

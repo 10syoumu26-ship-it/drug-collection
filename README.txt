@@ -1,4 +1,3 @@
-DRUG COLLECTION v1.8
-白い薬棚とトレカ風カードのまま薬効群ごとに色分けしました。
-変更ファイル: index.html と sw.js。GitHubでこの2ファイルを更新してください。
-学習データ・薬剤情報の内容は変更していません。
+DRUG COLLECTION v1.14 — wrong-option provenance explanation. Upload index.html and sw.js; keep the existing drugs.js and curated_questions.js.
+
+V1.15: All secondary page back buttons moved below the iPhone safe area, with larger tap targets.
