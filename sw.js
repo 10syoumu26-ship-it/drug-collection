@@ -1,5 +1,5 @@
-const CACHE='drug-collection-v1-39';
-const ASSETS=['./','./index.html','./drugs.js','./curated_questions.js','./additional_questions.js','./verified_batch1.js','./verified_batch2.js','./verified_batch3.js','./verified_batch4.js','./verified_batch5.js','./verified_batch6.js','./verified_batch7.js','./verified_batch8.js','./verified_batch9.js','./verified_batch10.js','./manifest.webmanifest','./icon.svg'];
+const CACHE='drug-collection-v1-40';
+const ASSETS=['./','./index.html','./drugs.js','./curated_questions.js','./additional_questions.js','./verified_batch1.js','./verified_batch2.js','./verified_batch3.js','./verified_batch4.js','./verified_batch5.js','./verified_batch6.js','./verified_batch7.js','./verified_batch8.js','./verified_batch9.js','./verified_batch10.js','./verified_batch11.js','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('drug-collection-')&&k!==CACHE).map(k=>caches.delete(k))))])));
 self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);if(u.origin!==self.location.origin)return; e.respondWith(fetch(e.request).then(r=>{if(r.ok){const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy)).catch(()=>{});}return r;}).catch(()=>caches.match(e.request)));});

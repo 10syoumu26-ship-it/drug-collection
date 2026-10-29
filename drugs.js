@@ -30,6 +30,7 @@ const RAW = `
 中枢神経|セルトラリン|選択的セロトニン再取り込み阻害薬（SSRI）|セロトニントランスポーターを阻害|うつ病・うつ状態・パニック障害など|悪心・性機能障害・セロトニン症候群|MAO阻害薬との併用禁忌などに注意|効果発現まで数週間かかることがある
 呼吸器|サルブタモール|短時間作用性β₂刺激薬（SABA）|気道平滑筋β₂受容体刺激による気管支拡張|気管支喘息の発作時など|動悸・振戦・低カリウム血症|頻回使用時は喘息管理状況を再評価|速効性の気管支拡張薬
 呼吸器|チオトロピウム|長時間作用性抗コリン薬（LAMA）|気道平滑筋M₃受容体遮断|COPDなど|口渇・便秘・尿閉|閉塞隅角緑内障・排尿障害に注意|維持療法に使用し急性発作の頓用ではない
+血液|アスピリン|抗血小板薬（低用量）・サリチル酸系NSAIDs|血小板COX-1を不可逆的にアセチル化しTXA₂産生を抑制|心筋梗塞・虚血性脳血管障害等における血栓形成抑制、川崎病など（腸溶錠100mg）|出血・消化性潰瘍・アスピリン喘息・過敏症|活動性消化性潰瘍・出血傾向・アスピリン喘息既往・出産予定日12週以内などは禁忌（代表腸溶錠）|血小板作用は不可逆的。鎮痛用製剤とは適応・用量が異なる
 `;
 const TOPICS=[['classification','分類'],['mechanism','作用機序'],['indications','主な適応'],['adverse','副作用'],['caution','禁忌・注意'],['special','特記事項']];
 const DRUGS=RAW.trim().split('\n').map((line,i)=>{const [category,name,classification,mechanism,indications,adverse,caution,special]=line.split('|');return {id:'d'+String(i+1).padStart(3,'0'),category,name,classification,mechanism,indications,adverse,caution,special};});
