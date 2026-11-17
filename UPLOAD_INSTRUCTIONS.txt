@@ -1,0 +1,2 @@
+DRUG COLLECTION v1.94 update
+Upload the 24 .html/.js files to the ROOT of the original drug-collection repository. Overwrite index.html and sw.js. Add/overwrite the other 22 JS files. Do not upload the ZIP itself. Do not delete existing JS files.
